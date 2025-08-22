@@ -1,6 +1,6 @@
 import os
 
-os.mkdir("Управление_файлами")
+# os.mkdir("Управление_файлами")
 os.chdir(r"C:\Users\User\PycharmProjects\Module_5_tasks\Управление_файлами")
 files_and_dirs = os.listdir(".")
 print("Файлы и директории:", files_and_dirs)
